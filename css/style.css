@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:regular,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Raleway:700,800&display=swap);
+/* --------Header------------------------------------------------------------------ */
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 114px;
+}
+
+.header__logo {
+  margin: 0 281px 0 52px;
+}
+
+.header__button {
+  margin-right: 43px;
+  min-height: 40px;
+  width: 130px;
+  color: #FFF;
+  background-color: #4285F4;
+  text-align: center;
+  line-height: 40px;
+  font-family: "Raleway";
+  font-weight: 800;
+}
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-column-gap: 40px;
+          column-gap: 40px;
+}
+
+.menu__item {
+  font-weight: 800;
+}
+/*# sourceMappingURL=style.css.map */
